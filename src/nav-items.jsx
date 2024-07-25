@@ -1,4 +1,4 @@
-import { Deer } from "lucide-react";
+import { Moose } from "lucide-react";
 import Index from "./pages/Index.jsx";
 
 /**
@@ -8,7 +8,7 @@ export const navItems = [
   {
     title: "Moose",
     to: "/",
-    icon: <Deer className="h-4 w-4" />,
+    icon: <Moose className="h-4 w-4" />,
     page: <Index />,
   },
 ];

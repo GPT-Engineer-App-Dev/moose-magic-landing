@@ -16,6 +16,7 @@ const Index = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="bg-muted p-6 rounded-lg">
             <h3 className="text-xl font-semibold mb-3">Physical Characteristics</h3>
+            <img src="/placeholder.svg" alt="Moose Physical Characteristics" className="mx-auto object-cover w-full h-[200px] rounded-lg mb-4" />
             <ul className="list-disc list-inside space-y-2">
               <li>Moose are the largest members of the deer family</li>
               <li>Male moose (bulls) can weigh up to 1,500 pounds</li>
@@ -26,6 +27,7 @@ const Index = () => {
           </div>
           <div className="bg-muted p-6 rounded-lg">
             <h3 className="text-xl font-semibold mb-3">Behavior and Abilities</h3>
+            <img src="/placeholder.svg" alt="Moose Behavior" className="mx-auto object-cover w-full h-[200px] rounded-lg mb-4" />
             <ul className="list-disc list-inside space-y-2">
               <li>Moose are excellent swimmers and can dive up to 20 feet underwater</li>
               <li>They can run up to 35 miles per hour over short distances</li>
@@ -36,6 +38,7 @@ const Index = () => {
           </div>
           <div className="bg-muted p-6 rounded-lg">
             <h3 className="text-xl font-semibold mb-3">Lifecycle and Habitat</h3>
+            <img src="/placeholder.svg" alt="Moose Habitat" className="mx-auto object-cover w-full h-[200px] rounded-lg mb-4" />
             <ul className="list-disc list-inside space-y-2">
               <li>They have a life span of 15-25 years in the wild</li>
               <li>Moose calves can stand within hours of birth and outrun a human within a week</li>
@@ -46,6 +49,7 @@ const Index = () => {
           </div>
           <div className="bg-muted p-6 rounded-lg">
             <h3 className="text-xl font-semibold mb-3">Cultural Significance</h3>
+            <img src="/placeholder.svg" alt="Moose in Culture" className="mx-auto object-cover w-full h-[200px] rounded-lg mb-4" />
             <ul className="list-disc list-inside space-y-2">
               <li>Moose have been hunted for thousands of years by indigenous peoples for food, tools, and clothing</li>
               <li>They are the official animal of several Canadian provinces and U.S. states</li>
@@ -60,14 +64,15 @@ const Index = () => {
       {/* Habitat Section */}
       <section className="mb-16">
         <h2 className="text-3xl font-semibold mb-4">Moose Habitat</h2>
-        <p className="mb-4">Moose are found in:</p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-semibold mb-2">North America</h3>
+            <img src="/placeholder.svg" alt="North American Moose Habitat" className="mx-auto object-cover w-full h-[250px] rounded-lg mb-4" />
             <p>Canada, Alaska, and northern United States</p>
           </div>
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-semibold mb-2">Europe</h3>
+            <img src="/placeholder.svg" alt="European Moose Habitat" className="mx-auto object-cover w-full h-[250px] rounded-lg mb-4" />
             <p>Scandinavia and Baltic countries</p>
           </div>
         </div>

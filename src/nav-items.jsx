@@ -1,4 +1,4 @@
-import { Moose } from "lucide-react";
+import { TreeDeciduous } from "lucide-react";
 import Index from "./pages/Index.jsx";
 
 /**
@@ -6,9 +6,9 @@ import Index from "./pages/Index.jsx";
  */
 export const navItems = [
   {
-    title: "Moose",
+    title: "Moose Info",
     to: "/",
-    icon: <Moose className="h-4 w-4" />,
+    icon: <TreeDeciduous className="h-4 w-4" />,
     page: <Index />,
   },
 ];
